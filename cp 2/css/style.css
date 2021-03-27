@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.logo-docplanner {
+    width: 268px;
+    height: 68px;
+    margin: 6px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links a {
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(167, 155, 155);
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgb(79, 255, 231);
+}
+
+/* Section 1 */
+
+
+.logo-with-para {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    align-items: center;
+}
+
+.logo-star {
+    display: block;
+    text-align: center;
+}
+
+.first-text {
+    color: #00b39b;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.next-para {
+    display: flex; 
+    justify-content: center;
+    margin: 10px 300px;
+}
+.next-para p {
+    padding-right: 60px;
+    line-height: 1;
+    font-weight: 300;
+    font-size: 20px
+}
+
+/* Section 2*/
+.box-section {
+    display: flex;
+    justify-content: center;
+}
+
+.box-section div{  
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin: 0px 15px;
+    height: 345px;
+    width: 280px;
+}
+
+
+
+.box1 {
+    background-color: #00ccb1
+}
+
+.box2 {
+    background-color: #3d83df;
+}
+
+.box3 {
+    background-color: rgb(22, 31, 42);
+}
+
+
+.box-section p{
+    font-size: 25px;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 14x;
+
+}
+.box-section h2 {
+    color: white;
+    font-size: 28px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.box-section img {
+    margin-top: 15px;
+    width: 50px;
+}
+
+img, p, h2 {
+    padding: 6px 6px;
+}
+
+.country-options{
+    width: 60%;
+    background: transparent;
+    border: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+
+.country-options-2 {
+    width: 60%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 65px;
+}
+
+
+
+/* Section 3*/
+.company-txt {
+    width: 33%;
+    color: #00b39b;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 30px 460px;
+}
+
+/* Section 4*/
+.green-section{
+    background-color: #e5faf8;
+    display: flex;
+    width: auto;
+    height: 600px;      
+}
+
+#txt {
+    color: #00b39b;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-family:monospace;
+}
+.text-star {
+    margin: 60px 350px; 
+}
+
+#txt2{
+    font-size: 20px;
+}
+
+.star2 {
+    margin: 6px 140px;
+    width: 50px;
+}
+
+
+
+
+
+.four-boxs {
+    display: flex;
+    width: 80%;
+    margin: 25px;
+}
+
+.box-one {
+    background-color: white;
+    padding: 20px 20px 0 30px;
+    height: 230px;
+    width: 220px;
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+
+.box-two {
+    display: block;
+    padding: 30px 20px 0 30px;
+    background-color: white;
+    height: 250px;
+    width: 220px;
+    margin-top: 16px;
+}
+
+.box-three {
+    background-color: white;
+    padding: 36px 20px 0 30px;
+    height: 230px;
+    width: 220px;
+    
+}
+
+.box-four {
+    background-color: white;
+    padding: 30px 20px 0 30px;
+    height: 250px;
+    width: 220px;
+    margin-top: 36px;
+}
+
+.four-boxs h3{
+    color: #00b39b;
+}
+.four-boxs p {
+    padding-left: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Section 5 */
+
+.under-txt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.under-txt h1{
+    letter-spacing: 2px;
+    color: #00b39b;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.under-txt p{
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.country-cards {
+    display: flex;
+    margin: 70px 380px;
+    flex-wrap: wrap;
+    max-width: 60%;
+    justify-content: center;
+}
+
+.country-cards div {
+    margin: 20px;
+}
+
+/* Footer */
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin-left: 500px;
+}
+
+
